@@ -26,7 +26,10 @@ test = test.drop(columns=['Name','Cabin','Embarked'])
 #Inseri a média de idade nos campos que estavam vazios
 train['Age'].fillna(train['Age'].mean(), inplace=True)
 test['Age'].fillna(test['Age'].mean(), inplace=True)
+
 asasasasasasas
+
 asasas
+
 asasasas
-    scacacascacasc
+scacacascacasc
