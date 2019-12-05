@@ -19,3 +19,14 @@ train = pd.read_csv(r"C:\Users\micael.custodio\OneDrive\OneDrive - JSL SA\DHDSC\
 #Retirndo colunas que parecem ser irrelevantes no momento
 train = train.drop(columns=['PassengerId','Ticket','Name','Embarked','Cabin'])
 train.head()
+
+#Retirndo colunas que parecem ser irrelevantes no momento
+test = test.drop(columns=['Name','Cabin','Embarked'])
+
+#Inseri a média de idade nos campos que estavam vazios
+train['Age'].fillna(train['Age'].mean(), inplace=True)
+test['Age'].fillna(test['Age'].mean(), inplace=True)
+asasasasasasas
+asasas
+asasasas
+    scacacascacasc
